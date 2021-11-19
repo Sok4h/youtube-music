@@ -1,0 +1,31 @@
+a,p{
+
+    color: white;
+}
+
+.artist{
+
+    width:18%;
+    display: flex;
+    flex-direction:column;
+    align-items:center;  
+}
+
+.artist__image{
+
+    width: 100%;
+    border-radius:50%;
+    
+}
+
+.artist__name{
+
+    margin-top:10px;
+    font-weight:bold;
+
+}
+
+.artist__subscribers{
+
+    margin: 5px;
+}

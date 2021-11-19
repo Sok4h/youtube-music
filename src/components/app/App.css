@@ -1,0 +1,60 @@
+.App {
+  background-color: #030303;
+  height:100%;
+}
+
+main{
+  padding:0 10%;
+}
+a,p,h2,h3{
+
+  color: white;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+.App-header {
+  background-color: #030303;
+  display: flex;
+  min-height: 80px;
+  align-items: center;
+  justify-content: center;
+
+  
+}
+.App-nav{
+  display: flex;
+  align-items: center; 
+}
+
+.favorite{
+
+  display: flex;
+  flex-direction: column;
+}
+
+.favorite__list{
+
+  display: flex;
+  justify-content:space-between;
+
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.title__favorite{
+
+  margin-left: 30px;
+}
+
+.similar__list{
+
+  display: flex;
+  justify-content:space-between;
+}
+

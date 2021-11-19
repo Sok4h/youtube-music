@@ -1,0 +1,40 @@
+.album{
+
+    width:18%;
+    display: flex;
+    min-width:min-content;
+    flex-direction: column;
+    margin-bottom:40px;
+    
+}
+
+.album__image{
+
+    width:100%;
+}
+
+.album__div{
+
+    display: flex;
+    width:200px;
+    align-items: center;
+    justify-content:flex-start;
+    
+}
+
+.explicit{
+    display: none;
+    margin-right: 10px;
+    
+}
+
+.explicit--active{
+    width:20px;
+    height:20px;
+    display:block;
+}
+
+.album__name{
+
+    margin-top: 10px;
+}
